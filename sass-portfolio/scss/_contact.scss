@@ -1,0 +1,41 @@
+.contact {
+    height: 100%;
+    width: 100%;
+    padding-top: 20vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background:
+    linear-gradient(
+          to right,
+          rgba($primary-color, 0.9),
+          rgba($primary-color, 0.3)
+        ),   
+        url('../img/kerim.png') center top;
+    background-size: cover;
+
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        color: $secondary-color;
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+        font-size: 1.5rem;
+        margin-bottom: .7rem;
+    }
+
+    .text-secondary {
+        color: $secondary-color;
+    }
+
+    .social-icons {
+        position: initial;
+        margin-top: 2rem;
+    }
+} 
